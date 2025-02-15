@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Alamin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-center text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="hero-title">HEY I AM ALAMIN</h1>
+                    <p>I'm a budding web developer passionate about crafting interactive web experiences. Currently, I'm learning the MERN stack to take my skills to the next level.</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary">Hire me</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://ts1.mm.bing.net/th?id=OIP.s5ikpybVX2q_bplFyeXEUgHaFv&pid=15.1" alt="hero" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 text-center">
+                    <img src="alamin.png" alt="Alamin" class="img-fluid rounded-circle shadow-lg">
+                </div>
+                <div class="col-lg-7">
+                    <h1 class="hero-title">About <span>ME</span></h1>
+                    <p class="hero-subtitle">
+                        Hi there! I'm Alamin, a budding web developer passionate about crafting interactive and dynamic web applications. My journey into web development began with a curiosity for technology and a desire to create. 
+                        <br><br>
+                        I'm currently mastering the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js, through Ostad's interactive courses. I enjoy tackling challenges and turning ideas into reality.
+                        <br><br>
+                        In my free time, I love exploring new technologies, contributing to open-source projects, and sharing knowledge with fellow developers. I'm excited about the future of web development and eager to collaborate on impactful projects.
+                    </p>
+                    <div class="hero-buttons mt-3">
+                        <a href="#" class="btn btn-primary">Get Started</a>
+                        <a href="#" class="btn btn-outline-light">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project" class="project-section text-white py-5">
+        <div class="container text-center">
+            <h2 class="title">My recent <span class="highlight">works</span></h2>
+            <div class="btn-group my-4" role="group">
+                <button type="button" class="btn btn-primary active">All</button>
+                <button type="button" class="btn btn-dark">UI</button>
+                <button type="button" class="btn btn-dark">UX</button>
+                <button type="button" class="btn btn-dark">Web Design</button>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="data:image/png;base64,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" alt="Project 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="data:image/png;base64,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" alt="Project 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="data:image/png;base64,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" alt="Project 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="hero text-center text-white py-5">
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                    <h1><strong>Got a project in</strong> <span style="color: #0fc4c4;">mind?</span></h1>
+                </div>
+                <div style="width: 100%;">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <label>Your Name</label>
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label>Your Email</label>
+                                <input type="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Your Message</label>
+                            <textarea rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn-custom mt-3">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="mb-4">
+                <a href="#" class="me-3"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="#" class="me-3"><i class="fa-solid fa-user"></i> About me</a>
+                <a href="#"><i class="fa-solid fa-phone"></i> Contact</a>
+            </div>
+            <div class="footer-icons mb-4">
+                <a href="https://www.facebook.com/alamin009j"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div>
+                <a href="#">Terms of Service</a> - 
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
